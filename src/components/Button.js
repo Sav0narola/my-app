@@ -7,6 +7,7 @@ class Button extends React.Component {
         return (<button
             className="btn"
             background-color={this.props.color}
+            test=""
             onClick={this.props.handleClick}>{this.props.buttonName}</button>)
     }
 }
