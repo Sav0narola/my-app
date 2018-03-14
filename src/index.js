@@ -4,11 +4,11 @@ import './css/style.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import Button from "./components/Button";
+import SimpleText from "./components/SimpleText";
 
 render(<App />, document.getElementById('main'));
 registerServiceWorker();
 
-alert('testAlert');
 
-render (<Button/>, document.querySelector('#main'));
+render (<SimpleText/>, document.querySelector('#main'));
 
