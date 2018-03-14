@@ -29,6 +29,32 @@
     background: linear-gradient(45grad, #3023AE, #51ECDC);
 }
 
+.btn {
+    position: center;
+    margin: 50px;
+    display:block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #7ED321;
+    font-size: 60px;
+    box-shadow: 0 0 13px gray;
+    color: white;
+}
+
+.btn2 {
+     position: center;
+     margin: 50px;
+     display:block;
+     height: 120px;
+     width: 120px;
+     border-radius: 50%;
+     background-color: #D0021B;
+     font-size: 60px;
+     box-shadow: 0 0 13px gray;
+     padding: 13px 13px;
+ }
+
 .App {
     text-align: center;
 }

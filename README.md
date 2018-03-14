@@ -12,5 +12,18 @@
 - implemented basic style.css
 - added css class: main
 - implemented media queries (mobile first)
--
+---
+#### chp-6:
 
+- created header component
+- implemented text: "moody"
+- aligned and coloured text
+- styled gradient for background
+- implemented class to make the header sticky
+---
+#### chp-7:
+
+- implemented buttons
+- styled button
+- added props to the button
+---

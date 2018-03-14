@@ -10,9 +10,9 @@ import Header from "./components/Header";
 render(<App />, document.getElementById('main'));
 registerServiceWorker();
 
-render (<Button buttonName={'BUTTON'}/>, document.querySelector('#button1'));
+render (<Button buttonName={'+'} color={'#7ED321'}/>, document.querySelector('#button1'));
 
-render (<Button buttonName={'-'}/>, document.querySelector('#button2'));
+render (<Button buttonName={'-'} color={'D0021B'}/>, document.querySelector('#button2'));
 
 render (<SimpleText/>, document.querySelector('#main'));
 
