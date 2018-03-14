@@ -1,11 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import './index.css';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
+import Button from "./components/Button";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('main'));
 registerServiceWorker();
 
 alert('testAlert');
+
+render (<Button/>, document.querySelector('#main'));
 
