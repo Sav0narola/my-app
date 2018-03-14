@@ -9,6 +9,6 @@ import SimpleText from "./components/SimpleText";
 render(<App />, document.getElementById('main'));
 registerServiceWorker();
 
+render (<Button buttonName={'Test Knopf'}/>, document.querySelector('#button'));
 
 render (<SimpleText/>, document.querySelector('#main'));
-

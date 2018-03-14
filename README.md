@@ -10,5 +10,7 @@
 #### chp-4 to chp-5:
 
 - implemented basic style.css
-
+- added css class: main
+- implemented media queries (mobile first)
+-
 
