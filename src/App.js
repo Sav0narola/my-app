@@ -1,18 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './css/style.css';
+import Button from "./components/Button";
+import SimpleText from "./components/SimpleText";
+import Header from "./components/Header";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Header className="App-header"/>
+          <Button buttonName={'+'} color={'#7ED321'}/>
+          <Button buttonName={'-'} color={'#D0021B'}/>
+          <SimpleText />
       </div>
     );
   }

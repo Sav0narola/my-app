@@ -3,7 +3,7 @@ import React from "react";
 const Header = () => (
     <header className={'head'}>
         <nav>
-            <span>moody</span>
+            <h1>moody</h1>
         </nav>
     </header>
 );
