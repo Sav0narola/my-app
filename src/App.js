@@ -8,9 +8,11 @@ class App extends Component {
     return (
       <div className="App">
           <Header className="App-header"/>
-          <Button buttonName={'+'} color={'#7ED321'}/>
-          <Button buttonName={'-'} color={'#D0021B'}/>
-          <SimpleText />
+          <div className="frame">
+              <Button buttonName={'+'} btnColor={'#7ED321'}/>
+              <Button buttonName={'-'} btnColor={'#D0021B'}/>
+              <SimpleText />
+          </div>
       </div>
     );
   }
