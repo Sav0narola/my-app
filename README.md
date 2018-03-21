@@ -26,6 +26,4 @@
 - implemented buttons
 - styled button
 - added props to the button
-- refactored SimpleText.js to match requirements
-- styled flexbox to center buttons
 ---
