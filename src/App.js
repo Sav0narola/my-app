@@ -8,9 +8,9 @@ class App extends Component {
     return (
       <div className="App">
           <Header className="App-header"/>
-          <div className="frame">
-              <Button buttonName={'+'} btnColor={'#7ED321'}/>
-              <Button buttonName={'-'} btnColor={'#D0021B'}/>
+          <div className="flex-frame">
+              <Button className="flex-item" buttonName={'+'} btnColor={'#7ED321'}/>
+              <Button className="flex-item" buttonName={'-'} btnColor={'#D0021B'}/>
               <SimpleText />
           </div>
       </div>

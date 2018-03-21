@@ -1,8 +1,9 @@
 .main {
+    height: 100%;
+    margin: 0;
     font-size: 26px;
     text-align: center;
     font-family: sans-serif;
-    text-transform: uppercase;
 }
 
 @media (min-width: 480px) {
@@ -21,7 +22,7 @@
     text-align: left;
     text-transform: uppercase;
     color: white;
-    position: center;
+    position: fixed;
     top: 0;
     width: 100%;
     height: auto;
@@ -29,7 +30,7 @@
 }
 
 .btn {
-    margin: auto;
+    margin: 20px;
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -39,15 +40,21 @@
     color: white;
 }
 
-.frame {
-    height: 500px;
+.flex-frame {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 100px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
-/*.btn-colored {
-     background-color: #D0021B;
- }*/
+.flex-item {
+    padding: 100px;
+    margin: 100px;
+    font-weight: bold;
+}
 
 .App {
     text-align: center;
