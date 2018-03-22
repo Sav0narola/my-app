@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <Header className="App-header"/>
+          <Header className="head"/>
           <div className="flex-frame">
               <Button className="flex-item" buttonName={'+'} btnColor={'#7ED321'}/>
               <Button className="flex-item" buttonName={'-'} btnColor={'#D0021B'}/>
