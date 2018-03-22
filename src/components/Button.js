@@ -11,6 +11,4 @@ class Button extends React.Component {
     }
 }
 
-//alert('gitTest');
-
 export default Button;
